@@ -1,0 +1,11 @@
+"""
+Script to replace tags for html:
+
+"<" replace with "&lt"
+">" replace with "&gt"
+
+"""
+
+## Copy and Paste HTML code in "text.html" file
+
+## Execute python script in same folder in terminal

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+a, h1, p {
+    font-size: normal;
+    color: #000;
+    background-color: rgba(67, 226, 43, 0.446);
+    border-radius: 10px;
+    padding: 2px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
