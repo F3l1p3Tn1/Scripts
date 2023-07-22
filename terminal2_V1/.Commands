@@ -1,0 +1,224 @@
+ === COMANDOS DO TERMINAL sudo apt update && sudo apt upgrade -y (atualizar)
+
+$apropos (busca nos manuais) 
+
+$ ctrl+C (interrompe um comando)
+
+$ls (lista o conteúdo de um diretório) 
+
+$ls -a (lista os diretórios, arquivos ocultos e executáveis) ( GUI ctrl+h)
+
+$ls -l (Lista detalhadamente)(ou $ls -Rla) 
+
+$pwd (mostra o diretório corrente)
+
+$cd (muda de diretório) Ex: $cd /etc 
+
+$cd - (volta para o diretório anterior)
+
+$cd .. (volta um diretório acima) $cd ~ (volta para seu diretório /home)
+
+$mkdir [pasta] (cria uma pasta e o nome) 
+
+$mkdir [pasta1] [pasta2] (cria duas ao mesmo tempo)
+
+$cat > [arquivo] (cria novo arquivo) 
+
+$cat [arquivo1] >> [arquivo2] (acrescenta arq.2 em arq.1)
+
+$touch [arquivo] (cria um arquivo) 
+
+$diff [arquivo1] [arquivo2] (compara os dois arquivos)
+
+$locate [arquivo] (localiza arquivo) 
+
+$less [arquivo] (mostra o arquivo)
+
+$more [arquivo] (mostra o arquivo) 
+
+$nl [arquivo] linhas do arquivo)
+
+$wc [arquivo] (linhas, palavras e bytes) 
+
+$[comando1] | [comando2] (conecta dois processos) 
+	Ex:$vi /etc/X11/xorg.conf | more
+
+$su (root)(BigLinux:/$ sudo su) 
+
+$su [usuário] (muda usuário)
+
+$shutdown (reinicia) 
+
+$reboot (reinicio emergência) 
+
+$ systemctl reboot -i (reinicia mesmo com outros users)
+
+$passwd (troca a senha) 
+
+$uname -a (sistema operacional)
+
+$cat /etc/*release (mostra mais sobre) 
+
+$dmesg (mostra informações do sistema)
+
+$arch (arquitetura do PC) 
+
+$lsmod (módulos)
+
+$echo [mensagem] (exibe mensagem shell) 
+
+$history (últimos 500 comandos que digitou)
+
+$ps (mostra os processos corrente "PID") 
+
+$xkill (fecha com ponteiro do mouse em X)
+
+$date (dia e hora) 
+
+$cal (calendário mês)
+
+$cal [ano] (calendário do ano) 
+
+$last [-num] (últimos logins)
+
+$clear (limpa a tela) 
+
+$free (detalhes da memória RAM)
+
+$eject (abre a gaveta cd) 
+
+$eject -t (fecha a gaveta)
+
+$halt (desliga o PC) 
+
+$hostname (nome da máquina)
+
+$who (quem está conectado) 
+
+$wget -c [URL] (download de arquivo)
+
+$whoami (quem logou primeiro) 
+
+$lspci (componentes PCI )
+
+$init 6 (reinicia rápido) 
+
+$init 0 (desliga rápido)
+
+$startx (interface gráfica padrão) 
+
+$ls / | wc -l (conta dentro do dir)
+
+$ ps aux | less (processos) 
+
+$ df -h (dispositivos conectados)
+
+$mkdir -p [pasta]/[sub-pasta] (cria diretório e sub- diretório)
+
+$rm -r [pasta ou arquivo] (deleta/apaga uma pasta ou arquivo)
+
+$mv [arquivo1] [arquivo2] (renomeia uma pasta)
+
+$mv [arquivo] [caminho] (move) Ex: $mv imagem. jpg /home/Wallpapers
+
+$cp [arquivo] [caminho] (copia arquivo para caminho) Ex: $cp imagem.jpg /t4k_slack/Wallpapers
+
+$cp -R /home/user/ /tmp/ (Copia tudo)
+
+$ln -s [caminho] [link] (cria um link) Ex: $ln -s /home/user/folderFile FolderFile
+
+$type [executável] (caminho do executável) Ex: $type Firefox
+
+$head [-linhas] [arquivo] (primeiras linhas do arquivo) Ex:$head -10 texto.txt
+
+$tail [-linhas] [arquivo] (contrário do $head)
+
+$sleep [tempo] && [comando] (timer executa comando) Ex:$sleep 2 && pwd
+
+$top -d [segundos] (detalhes de processos) Ex: $top -d 3
+
+$killall [programa] (força fechar programa)
+
+$mkfs.ext2 (formata em formato Linux Ex: $mkfs.ext2 /dev/fd0
+
+$superformat (formata em formato DOS) Ex: $superformat /dev/fd0
+
+$vmstat -a [tempo] (memória swap em uso) Ex: $vmstat -a 2
+
+#insmod [módulo] (levanta módulo a força) Ex: #insmod spca5x
+
+#less /etc/passwd (exibe users) ou #getent passwd
+
+# useradd -m (adiciona usuário)  #userdel -r [usuário] (deleta o usuário e pasta do diretório /home)
+
+#chfn [usuário] (muda informações do usuário)
+
+#chage -M [dias] [usuário] (expira usuário, dia agendado, requer root) Ex: #chage -M 20 fulano
+
+$display [imagem.jpg] (mostra uma imagem no X, necessita ImageMagick) Ex: $display imagem.jpg
+
+$convert [img.png] [img.jpg] (converte .png para .jpg necessita ImageMagick)
+
+$mount [device] (monta um dispositivo) Ex: $mount /mnt/cdrom
+
+$umount [device] (desmonta um dispositivo) Ex: $umount /mnt/cdrom
+
+$du [diretório] (ou dentro da pasta: $du * )(Tamanho do arquivo))
+
+$du -S [sub- diretórios] (tamanho dos sub- diretórios)
+
+$du -msc \.*[!..] (apenas o tamanho de arquivos ocultos) $ du -hs * | sort -h (melhor)
+
+du -msc \.*[!..] * (ocultos e normais)
+
+$[comando] & (inicia o processo em segundo plano e libera o terminal) Ex: $Firefox & Ex: $Firefox &&
+
+$tar -zxvf[arquivo.tar.gz] (descompacta .tar.gz)
+
+$tar -jxvf [arquivo .tar.bz2] (descompacta .tar.bz2)
+
+$time [comando] (tempo gasto para abrir programa)
+
+$uptime (tempo desde o último boot)
+
+$lsattr [folderFile] (lista atributos de um arquivo ou diretório)
+
+$whereis [exe ou comando] (localiza o caminho do executável/comando)
+
+$which (busca exe nos PATHs exportados)
+
+$ watch -n 1 sensors (temperatura das cpus)(nesc. lm-sensors instalado)
+
+$du --exclude ".*" pasta (lista subpastas menos as ocultas)
+
+$alias [comandoAtual] [comandoNovo] (muda nome do comando) Ex:$alias dir=ls -l
+
+TAB (duas vezes)( listar todos os comandos)
+
+Ajuda sobre o [comando] --help ex: $wget --help
+
+$ ls -Rl|egrep "^./|^-" (lista arquivos e diretórios)(achar muitos arquivos em diretórios)
+
+$ file (ver metadados)
+
+---chmod d= diretorio r= leitura w =escrita x= execuçao
+
+0 : --- (sem permissão) 1 : --x (execução) 2 : -w- (escrita)
+
+3 : -wx (escrita e execução) 4 : r-- (leitura) 5 : r-x (leitura e execução)
+
+6 : rw- (leitura e escrita) 7 : rwx (leitura, escrita e execução)
+
+Posicoes 1-root 2-grupo 3-publico : 733 = rwx wx wx
+
+chmod 733 [arquivo ou diretorio] root todas permissoes , grupo nao le e publico nao le.
+
+----$ chown user:group file.txt Alterar o proprietário e grupo de files e pastas
+
+---$ chown jerry demo.txt Apenas o user
+
+
+
+
+
+

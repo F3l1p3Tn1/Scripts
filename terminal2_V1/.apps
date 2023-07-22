@@ -1,0 +1,33 @@
+f = my page
+
+----- Apps Shortcuts:
+
+1- t = new text editor file
+
+2- ter = new terminal
+
+3- bro = firefox new window
+
+----- Commands shortcuts:
+
+1- comm = normal terminal commands
+
+2- input = lshw -short -c multimedia -c input
+
+3- usb = lsusb
+
+4- cal = calendar
+
+5- date = date
+
+6- top = system-performance information (c to stop)
+
+7- pci = pci components 
+
+8- distro = distro info
+
+9- disk = disks space
+
+10- calc = calculator (ctrl+d to stop)
+
+11- ram = RAM memory info
