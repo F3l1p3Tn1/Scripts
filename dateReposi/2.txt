@@ -1,0 +1,30 @@
+if (nasc >= 19110130 && nasc <= 19120217 ) {
+    var h = Javali
+}
+if (nasc >= 19230216 && nasc <= 19240204 ) {
+    var h = Javali
+}
+if (nasc >= 19350204 && nasc <= 19360123 ) {
+    var h = Javali
+}
+if (nasc >= 19470122 && nasc <= 19480209 ) {
+    var h = Javali
+}
+if (nasc >= 19590208 && nasc <= 19600127 ) {
+    var h = Javali
+}
+if (nasc >= 19710127 && nasc <= 19720214 ) {
+    var h = Javali
+}
+if (nasc >= 19830213 && nasc <= 19840201 ) {
+    var h = Javali
+}
+if (nasc >= 19950131 && nasc <= 19960218 ) {
+    var h = Javali
+}
+if (nasc >= 20070218 && nasc <= 20080206 ) {
+    var h = Javali
+}
+if (nasc >= 20190205 && nasc <= 20200124 ) {
+    var h = Javali
+}
